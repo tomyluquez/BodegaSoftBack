@@ -9,5 +9,6 @@ export enum TablesEnum {
     SalePaymentMethods = 'SalePaymentMethods',
     Sales = 'Sales',
     Tenants = 'Tenants',
-    Users = 'Users',
+    User = 'User',
+    UserTenants = 'UserTenants',
 }

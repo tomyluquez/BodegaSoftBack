@@ -3,13 +3,12 @@ import { Tenant } from "../../tenants/models/tenant.model";
 
 export class User {
     Id!: number;
+    UserId!: string;
     Created_at!: Date;
     Name!: string;
     Emial!: string;
     RoleId!: number;
     Role!: Role;
-    Password!: string;
-    TenantId!: number;
-    Tenant!: Tenant;
+    Tenant!: Tenant[];
     IsActive!: boolean;
 }

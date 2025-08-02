@@ -1,16 +1,10 @@
-import { Category } from "../../categories/models/category.model";
-import { Tenant } from "../../tenants/models/tenant.model";
-
-export class Product {
+export class ProductEditorDTO {
     Id!: number;
-    Created_at!: Date;
     TenantId!: number;
-    Tenant!: Tenant;
     Name!: string;
     Description?: string;
     Code!: string;
     CategoryId!: number;
-    Category!: Category;
     Cost!: number;
     Price!: number;
     Stock!: number;
